@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maksuda Rahman | Portfolio</title>
+  <link rel="stylesheet" href="images/stylee.css" />
+  <script src="images/script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- === Navbar === -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Publications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- === Header === -->
+    <header id="header">
+        <div class="header-text">
+            <h1>Hello, I'm <span>Maksuda Rahman</span></h1>
+            <p>ECE Graduate | Robotics & AI Enthusiast </p>
+            <a href="#services" class="btn">View My Work</a>
+        </div>
+    </header>
+    <!-- === About Section === -->
+    <section id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/port.jpg" alt="Maksuda Rahman" />
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am an Electronics and Communication Engineering graduate passionate about merging Robotics, Artificial Intelligence, Machine Learning, and Computer Vision to build intelligent, real-world systems. 
+                    With hands-on experience in Machine Learning, Computer Vision, Circuit Design, and Low-Power Electronics, I bridge the gap between hardware and intelligent software. 
+                    Skilled in Python, AI frameworks, and electronic circuit design, I thrive on solving complex problems and transforming ideas into tangible innovations. Driven by curiosity and creativity, I’m eager to contribute to cutting-edge, interdisciplinary projects that harness the power of AI and electronics to shape smarter and more efficient technologies.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming: </span> – Python, C, C++, JavaScript, SQL, HTML/CSS</li>
+                        <li><span>Frameworks:</span> – Scikit-learn, NLTK, SpaCy, TensorFlow, Keras,Py Torch,OpenCV,Media Pipe Matplotlib, Seaborn,Pandas</li>
+                        <li><span>Tools: </span> – Cisco Packet Tracer, Git, Oracle VM VirtualBox, MATLAB, Jupyter Notebook, VSCode</li>
+                        <li><span>Platforms: </span> – Linux (Ubuntu), Windows, Arduino, Google Colab</li>
+                        <li><span>Soft Skills: </span> – Leadership, Event Management, Writing, Public Speaking, Time Management</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>April 2021 - May 2021</span> – Data Science Intern(The Sparks Foundation)</li>
+                        <li><span>May 2021 - June 2021</span> – OpenCV Trainee(DevIncept)</li>
+                        <li><span>June 2021 - July 2021</span> – Natural Language Processing Trainee(DevIncept)</li>
+                        <li><span>July 2021 - August 2021</span> – Machine Learning Internship(DevIncept)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Sc.</span> – Electronics and Communication Engineering, Khulna University of Engineering & Technology(2018-2023)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === Services === -->
+     <section id="services">
+        <h1 class="subtitle">Publications</h1>
+        <div class="services-list">
+            <div>
+                <h2>Ensemble of boosting algorithms for Parkinson disease diagnosis</h2>
+                <p>M. Rahman, M.K. Hasan, M. M. Madhurja, and M. Ahmad, “Ensemble of boosting algorithms for Parkinson diseasediagnosis”, in Proceedings of the International Conference on Information and Communication Technology for Development: ICICTD 2022, Springer, 2023, pp. 343–354.</p>
+                <a href="https://scholar.google.com/citations?user=hAFkQ84AAAAJ&hl=en"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <div>
+                <h2>Deep Learning Approach for Semantic Segmentation of Remote-Sensing Image </h2>
+                <p>The thesis aimed to develop a deep learning model for segmenting remote sensing images. The researchfocused on analyzing the challenges in geospatial image segmentation for both single-class and multi-class scenarios,evaluating existing solutions, and addressing their limitations. The objective was to design a robust model applicable to both segmentation types and compare its performance in terms of loss, accuracy, and learning rate. A tri-UNet architecture was implemented, leveraging ResNet50 and VGG19 as backbones to enhance the model’s capability and reliability.</p>
+                <a href="https://drive.google.com/file/d/1V6hb9C3LGJeDTu8Lc3WGrF0B6t8j-EZV/view?usp=drive_link"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- === Projects === -->
+    <section id="projects">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/line_following robot.jpeg" alt="Project 1" />
+                <div class="layer">
+                    <h3>Line Following Robot</h3>
+                    <p>Use a differential drive system with two motors, each driving a single wheel, and may steer left or right by changing the speeds of each motor.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/Electronics_Projects/blob/main/LFR(Line%20Follower%20Robot)"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Volume_Control.jpeg" alt="Project 2" />
+                <div class="layer">
+                    <h3>Gesture Volume Control</h3>
+                    <p>Control a computer’s volume using hand gestures, which involves detecting hand landmarks via a camera.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/OpenCV_Projects/tree/main/pythonProject"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Virtual_Painting.jpeg" alt="Project 3" />
+                <div class="layer">
+                    <h3>Virtual Painting App</h3>
+                    <p>Allow users to create in real-time using hand motions or other input techniques detected by the webcam, and allow them to select from a range of colors for their virtual paintings.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/DevIncept_tp-cv-may-21-project"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/Battle_Bot.jpeg" alt="Project 3" />
+                <div class="layer">
+                    <h3>Battle Bot</h3>
+                    <p>Designed and built a remote-controlled battle bot enabling real-time movement via RC transmitter and microcontroller-based motor control,sensor-based opponent detection, and a safe long-range IR attack system.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/Electronics_Projects/tree/main/Battlebot"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/snake_game.jpg" alt="Project 7" />
+                <div class="layer">
+                    <h3>SerpentSaga</h3>
+                    <p>Designed game mechanics, including randomized food spawning, collision detection, and dynamic score tracking.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/Python-Projects/tree/main/SerpentSaga"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/face-recognition.jpeg" alt="Project 8" />
+                <div class="layer">
+                    <h3>Real time Face Recognition System</h3>
+                    <p>Detects and identifies human faces from live video streams using computer vision and machine learning techniques.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/OpenCV_Projects/tree/main/Face_Recognition_System"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/froud.jpeg" alt="Project 8" />
+                <div class="layer">
+                    <h3>Fraud Transaction Detection System</h3>
+                    <p>Detect fraudulent activity with high accuracy to limit false positives and false negatives, and implement real-time or near-real time detection to quickly identify and prevent fraudulent transactions or behavior.</p>
+                    <a href="https://github.com/MaksudaRahmanFariya/ML-Projects/tree/main/Fraud_Transaction/pythonProject"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----====Certificates===-->
+    <section id="certificates" class="certificates-section">
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-subtitle">A collection of certifications reflecting my continuous learning journey.</p>
+        <div class="certificate-card">
+            <div class="certificate-image">
+                <img src="images/Data Science.png" alt="Data Science Certificate">
+            </div>
+            <div class="certificate-text">
+                 <p>The <strong>Data Science for Everyone Track</strong> provided me with a strong foundation in the data science workflow, covering essential concepts such cleaning, analysis, visualization and clustering, etc. 
+                    Through interactive lessons and real-world examples, I learned how data drives decision-making across industries and gained hands-on experience with Python, data manipulation, and basic statistical thinking.</p>
+                <p>Here are some of certificates of all courses under
+                    <a href="#" target="_blank">Machine Learning</a>
+                </p>
+                <ul>
+                    <li>Machine Learning for Time Series Data in Python</li>
+                    <li> Unsupervised Learning in Python</li>
+                    <li> Linear Classi ers in Python</li>
+                    <li>Introduction to TensorFlow in Python</li>
+                </ul>
+            </div>
+        </div>
+        <div class="certificate-card reverse">
+            <div class="certificate-image">
+                <img src="images/Machine Learning.png" alt="Machine Learning">
+            </div>
+            <div class="certificate-text">
+                <p>I have learned the core concepts of machine learning, including supervised and unsupervised learning, regression, classification, and neural networks. I have gained practical skills in implementing algorithms, preprocessing data, and evaluating models on real-world datasets. 
+                    The course also covers model optimization, feature engineering, and best practices for deploying machine learning solutions.</p>
+                <p>Here’s the certificate:
+                    <a href="#" target="_blank">Data Science for Everyone Track</a>
+                </p>
+            </div>
+        </div>
+        <div class="certificate-card">
+            <div class="certificate-image">
+                <img src="images/Neural_Network.png" alt="Neural_Network">
+            </div>
+            <div class="certificate-text">
+                <p>I have learned the core concepts of neural networks, including perceptrons, activation functions, backpropagation, and deep learning architectures. I have gained practical skills in building, training, and evaluating neural network models on real-world datasets using Python and relevant frameworks.</p>
+                <p>Here’s the certificate:
+                    <a href="#" target="_blank">Neural Network</a>
+                </p>
+            </div>
+        </div>
+        <div class="certificate-card reverse">
+            <div class="certificate-image">
+                <img src="images/2nd_best_award.jpg" alt="Paper Award">
+            </div>
+            <div class="certificate-text">
+                <p>I have received the 2nd Best Paper Award at the International Conference on Information and Communication Technology for Development (ICICTD), 2022 for outstanding research contribution and presentation quality.</p>
+                <p>Here’s the certificate:
+                    <a href="#" target="_blank">Second Best Paper Award</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- === Contact === -->
+    <section id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i> fariyamaksudarahman@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +880 1715 233008</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/maksudarahman.fariya"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/MaksudaRahmanFariya?tab=repositories"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/maksuda-rahman-fariya23/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume_Maksuda_Rahman_(M).pdf" download class="btn btn2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required />
+                    <input type="email" name="Email" placeholder="Your Email" required />
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- === Footer === -->
+    <div class="copyright">
+        <p>© 2025 Maksuda Rahman | All Rights Reserved</p>
+    </div>
+</body>
+</html>
